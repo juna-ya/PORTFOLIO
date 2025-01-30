@@ -733,7 +733,7 @@ text-align: center;
 position: relative;
 }
 #section4 .contact h2 {
-font-size: 290px;
+font-size: 240px;
 width: 100%;
 font-family: "DM Serif Text", serif;
 font-weight: 200;
@@ -798,22 +798,15 @@ margin-right: 10px;
 }
 #section4 .contact span {
 position: absolute;
-right: 18%;
+right: 19%;
 top: 80%;
 text-align: left; 
 font-size: 16px;
 line-height: 1.5;
 }
 #section4 .typing {
-font-size: 70px;
-line-height: 1.3;
-font-weight: 700;
-text-align: center;
-position: absolute;
-right: 18%;
-top: 80%;
-white-space: nowrap;
-color: transparent;
+    white-space: nowrap;
+    color: transparent;
 }
 #section4 .typing::before {
 content: 'THANK YOU FOR TAKING THE PRECIOUS TIME TO CHECK YOUR PORTFOLIO !';
