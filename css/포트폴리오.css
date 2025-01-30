@@ -722,7 +722,7 @@ background-color: #000;
 }
 #section4 .contact{
 width: 80%;
-height: 750px;
+height: 720px;
 margin: 0 auto;
 background-color: black;
 border: 2px solid white; 
@@ -733,11 +733,11 @@ text-align: center;
 position: relative;
 }
 #section4 .contact h2 {
-font-size: 290px;
+font-size: 240px;
 width: 100%;
 font-family: "DM Serif Text", serif;
 font-weight: 200;
-/* padding-top: 80px; */
+padding: 40px 0px 0px;
 }
 #section4 .contact .info {
 display: flex;
@@ -774,6 +774,10 @@ height: auto;
 margin-right: 10px;
 transition: transform 0.3s ease, filter 0.3s ease;
 }
+#section4 .contact .info .left .item p:hover img {
+transform: scale(1.2);
+filter: brightness(1.2);
+}
 #section4 .contact .info .right {
 display: flex;
 justify-content: flex-end; 
@@ -798,20 +802,13 @@ margin-right: 10px;
 }
 #section4 .contact span {
 position: absolute;
-right: 18%;
+right: 19%;
 top: 80%;
 text-align: left; 
 font-size: 16px;
 line-height: 1.5;
 }
 #section4 .typing {
-font-size: 70px;
-line-height: 1.3;
-font-weight: 700;
-text-align: center;
-position: absolute;
-right: 18%;
-top: 80%;
 white-space: nowrap;
 color: transparent;
 }
@@ -820,14 +817,13 @@ content: 'THANK YOU FOR TAKING THE PRECIOUS TIME TO CHECK YOUR PORTFOLIO !';
 position: absolute;
 color: #fff;
 top: 0;
-left: -20px;
-/* width: 0; */
+left: 0;
+width: 100%;
 height: 100%;
 overflow: hidden;
 white-space: pre-wrap; 
 border-right: 1px solid #333;
-/*     animation: type 3s steps(40) 1s infinite;
-*/}
+animation: type 3s steps(40) 1s forwards;
 @keyframes type {
 from {
 width: 0;
@@ -837,7 +833,7 @@ to {
 width: 100%;
 }
 }
-#section4 .contact .info .right .item p {
+#section4 .contact .info .right .item p a{
 display: flex;
 align-items: center;
 margin-bottom: 10px;
@@ -848,7 +844,7 @@ color: #fff;
 background: transparent;
 }
 
-.contact .right .item p:hover {
+.contact .right .item p a:hover {
 animation: glow 1.5s infinite alternate;
 }
 
